@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.000438] (motor) JobStarted: {'identifier': 'motor'}
+[0.008106] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.009048] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[0.009090] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wildan/proyek/alucrot/build/motor', '--', '-j8', '-l8'], 'cwd': '/home/wildan/proyek/alucrot/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'wildan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wildan'), ('OLDPWD', '/home/wildan'), ('DESKTOP_SESSION', 'budgie-desktop'), ('GIO_LAUNCHED_DESKTOP_FILE', '/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1961'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/wildan/proyek/alucrot/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wildan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wildan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/swift-3x:@/tmp/.ICE-unix/1043,unix/swift-3x:/tmp/.ICE-unix/1043'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Budgie:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'b66836e8-296a-43f5-9ac7-5c17b015c364'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'budgie-desktop'), ('XAUTHORITY', '/home/wildan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/wildan'), ('AMENT_PREFIX_PATH', '/home/wildan/proyek/alucrot/install/motor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'budgie-desktop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wildan/proyek/alucrot/build/motor'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-budgie-desktop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/budgie-desktop:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wildan/proyek/alucrot/install/motor:/opt/ros/humble')]), 'shell': False}
+[0.039303] (motor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor\x1b[0m\n'}
+[0.050742] (motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor.dir/src/motor.cpp.o\x1b[0m\n'}
+[0.099831] (-) TimerEvent: {}
+[0.200082] (-) TimerEvent: {}
+[0.300364] (-) TimerEvent: {}
+[0.400695] (-) TimerEvent: {}
+[0.500986] (-) TimerEvent: {}
+[0.601280] (-) TimerEvent: {}
+[0.701609] (-) TimerEvent: {}
+[0.801951] (-) TimerEvent: {}
+[0.902268] (-) TimerEvent: {}
+[1.002552] (-) TimerEvent: {}
+[1.102868] (-) TimerEvent: {}
+[1.203222] (-) TimerEvent: {}
+[1.303544] (-) TimerEvent: {}
+[1.404168] (-) TimerEvent: {}
+[1.504568] (-) TimerEvent: {}
+[1.604841] (-) TimerEvent: {}
+[1.705154] (-) TimerEvent: {}
+[1.805472] (-) TimerEvent: {}
+[1.864690] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.864899] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:137:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbuffer_left_motor_speed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kprev_left_motor_speed\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.864976] (motor) StderrLine: {'line': b'  137 |         int total_vel = abs(\x1b[01;31m\x1b[Kbuffer_left_motor_speed\x1b[m\x1b[K) + abs(buffer_right_motor_speed) + abs(buffer_rear_motor_speed);\n'}
+[1.865042] (motor) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.865107] (motor) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kprev_left_motor_speed\x1b[m\x1b[K\n'}
+[1.871106] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:137:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbuffer_right_motor_speed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kprev_right_motor_speed\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.871300] (motor) StderrLine: {'line': b'  137 |         int total_vel = abs(buffer_left_motor_speed) + abs(\x1b[01;31m\x1b[Kbuffer_right_motor_speed\x1b[m\x1b[K) + abs(buffer_rear_motor_speed);\n'}
+[1.871385] (motor) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.871463] (motor) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Kprev_right_motor_speed\x1b[m\x1b[K\n'}
+[1.877179] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:137:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbuffer_rear_motor_speed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kprev_rear_motor_speed\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.877313] (motor) StderrLine: {'line': b'  137 |         int total_vel = abs(buffer_left_motor_speed) + abs(buffer_right_motor_speed) + abs(\x1b[01;31m\x1b[Kbuffer_rear_motor_speed\x1b[m\x1b[K);\n'}
+[1.877388] (motor) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.877449] (motor) StderrLine: {'line': b'      |                                                                                            \x1b[32m\x1b[Kprev_rear_motor_speed\x1b[m\x1b[K\n'}
+[1.877509] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:140:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint16_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kshort int\x1b[m\x1b[K\xe2\x80\x99} changes value from \xe2\x80\x98\x1b[01m\x1b[K65535\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K-1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.877574] (motor) StderrLine: {'line': b'  140 |             left_motor_acceleration = \x1b[01;35m\x1b[K65535\x1b[m\x1b[K;\n'}
+[1.877640] (motor) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.877703] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:145:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint16_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kshort int\x1b[m\x1b[K\xe2\x80\x99} changes value from \xe2\x80\x98\x1b[01m\x1b[K65535\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K-1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.877765] (motor) StderrLine: {'line': b'  145 |             right_motor_acceleration = \x1b[01;35m\x1b[K65535\x1b[m\x1b[K;\n'}
+[1.877823] (motor) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.877881] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:150:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint16_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kshort int\x1b[m\x1b[K\xe2\x80\x99} changes value from \xe2\x80\x98\x1b[01m\x1b[K65535\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K-1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.877941] (motor) StderrLine: {'line': b'  150 |             rear_motor_acceleration = \x1b[01;35m\x1b[K65535\x1b[m\x1b[K;\n'}
+[1.877999] (motor) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.905600] (-) TimerEvent: {}
+[2.005926] (-) TimerEvent: {}
+[2.106209] (-) TimerEvent: {}
+[2.206563] (-) TimerEvent: {}
+[2.306925] (-) TimerEvent: {}
+[2.407298] (-) TimerEvent: {}
+[2.507680] (-) TimerEvent: {}
+[2.607950] (-) TimerEvent: {}
+[2.708224] (-) TimerEvent: {}
+[2.808495] (-) TimerEvent: {}
+[2.908820] (-) TimerEvent: {}
+[3.009129] (-) TimerEvent: {}
+[3.109441] (-) TimerEvent: {}
+[3.209847] (-) TimerEvent: {}
+[3.310137] (-) TimerEvent: {}
+[3.410467] (-) TimerEvent: {}
+[3.510812] (-) TimerEvent: {}
+[3.611174] (-) TimerEvent: {}
+[3.711444] (-) TimerEvent: {}
+[3.730864] (motor) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/motor.dir/build.make:76: CMakeFiles/motor.dir/src/motor.cpp.o] Error 1\n'}
+[3.731064] (motor) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2\n'}
+[3.731166] (motor) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.732451] (motor) CommandEnded: {'returncode': 2}
+[3.761888] (motor) JobEnded: {'identifier': 'motor', 'rc': 2}
+[3.772382] (-) EventReactorShutdown: {}

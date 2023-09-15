@@ -1,0 +1,10 @@
+/home/wildan/proyek/alucrot/build/motor/CMakeFiles/uninstall.dir
+/home/wildan/proyek/alucrot/build/motor/CMakeFiles/motor_uninstall.dir
+/home/wildan/proyek/alucrot/build/motor/CMakeFiles/motor.dir
+/home/wildan/proyek/alucrot/build/motor/CMakeFiles/test.dir
+/home/wildan/proyek/alucrot/build/motor/CMakeFiles/edit_cache.dir
+/home/wildan/proyek/alucrot/build/motor/CMakeFiles/rebuild_cache.dir
+/home/wildan/proyek/alucrot/build/motor/CMakeFiles/list_install_components.dir
+/home/wildan/proyek/alucrot/build/motor/CMakeFiles/install.dir
+/home/wildan/proyek/alucrot/build/motor/CMakeFiles/install/local.dir
+/home/wildan/proyek/alucrot/build/motor/CMakeFiles/install/strip.dir

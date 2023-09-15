@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/motor.dir/src/motor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable motor[0m
+[100%] Built target motor
+-- Install configuration: ""
+-- Installing: /home/wildan/proyek/alucrot/install/motor/lib/motor/motor
+-- Set runtime path of "/home/wildan/proyek/alucrot/install/motor/lib/motor/motor" to ""
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/path.sh
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/path.dsv
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.bash
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.sh
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.zsh
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.dsv
+-- Installing: /home/wildan/proyek/alucrot/install/motor/share/motor/package.dsv
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/packages/motor
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/cmake/motorConfig.cmake
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/cmake/motorConfig-version.cmake
+-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/package.xml

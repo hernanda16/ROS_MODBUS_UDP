@@ -1,0 +1,25 @@
+[01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:137:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_left_motor_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kprev_left_motor_speed[m[K’?
+  137 |         int total_vel = abs([01;31m[Kbuffer_left_motor_speed[m[K) + abs(buffer_right_motor_speed) + abs(buffer_rear_motor_speed);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                             [32m[Kprev_left_motor_speed[m[K
+[01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:137:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_right_motor_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kprev_right_motor_speed[m[K’?
+  137 |         int total_vel = abs(buffer_left_motor_speed) + abs([01;31m[Kbuffer_right_motor_speed[m[K) + abs(buffer_rear_motor_speed);
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                            [32m[Kprev_right_motor_speed[m[K
+[01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:137:92:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_rear_motor_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kprev_rear_motor_speed[m[K’?
+  137 |         int total_vel = abs(buffer_left_motor_speed) + abs(buffer_right_motor_speed) + abs([01;31m[Kbuffer_rear_motor_speed[m[K);
+      |                                                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                            [32m[Kprev_rear_motor_speed[m[K
+[01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:140:39:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint16_t[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K65535[m[K’ to ‘[01m[K-1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+  140 |             left_motor_acceleration = [01;35m[K65535[m[K;
+      |                                       [01;35m[K^~~~~[m[K
+[01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:145:40:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint16_t[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K65535[m[K’ to ‘[01m[K-1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+  145 |             right_motor_acceleration = [01;35m[K65535[m[K;
+      |                                        [01;35m[K^~~~~[m[K
+[01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:150:39:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint16_t[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K65535[m[K’ to ‘[01m[K-1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+  150 |             rear_motor_acceleration = [01;35m[K65535[m[K;
+      |                                       [01;35m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/motor.dir/build.make:76: CMakeFiles/motor.dir/src/motor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.000579] (motor) JobStarted: {'identifier': 'motor'}
+[0.007546] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.007909] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[0.008390] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wildan/proyek/alucrot/build/motor', '--', '-j8', '-l8'], 'cwd': '/home/wildan/proyek/alucrot/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'wildan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wildan'), ('OLDPWD', '/home/wildan'), ('DESKTOP_SESSION', 'budgie-desktop'), ('GIO_LAUNCHED_DESKTOP_FILE', '/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1981'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/wildan/proyek/alucrot/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wildan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wildan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/swift-3x:@/tmp/.ICE-unix/1058,unix/swift-3x:/tmp/.ICE-unix/1058'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Budgie:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', '02ae57b3-fde9-4ff9-900a-5a42f8b27679'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'budgie-desktop'), ('XAUTHORITY', '/home/wildan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/wildan'), ('AMENT_PREFIX_PATH', '/home/wildan/proyek/alucrot/install/motor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'budgie-desktop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wildan/proyek/alucrot/build/motor'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-budgie-desktop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/budgie-desktop:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wildan/proyek/alucrot/install/motor:/opt/ros/humble')]), 'shell': False}
+[0.035146] (motor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor\x1b[0m\n'}
+[0.045742] (motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor.dir/src/motor.cpp.o\x1b[0m\n'}
+[0.099590] (-) TimerEvent: {}
+[0.199857] (-) TimerEvent: {}
+[0.300241] (-) TimerEvent: {}
+[0.400502] (-) TimerEvent: {}
+[0.500771] (-) TimerEvent: {}
+[0.601054] (-) TimerEvent: {}
+[0.701337] (-) TimerEvent: {}
+[0.801617] (-) TimerEvent: {}
+[0.901899] (-) TimerEvent: {}
+[1.002163] (-) TimerEvent: {}
+[1.102450] (-) TimerEvent: {}
+[1.202813] (-) TimerEvent: {}
+[1.303114] (-) TimerEvent: {}
+[1.403449] (-) TimerEvent: {}
+[1.503762] (-) TimerEvent: {}
+[1.604082] (-) TimerEvent: {}
+[1.704406] (-) TimerEvent: {}
+[1.804735] (-) TimerEvent: {}
+[1.905058] (-) TimerEvent: {}
+[2.005380] (-) TimerEvent: {}
+[2.105706] (-) TimerEvent: {}
+[2.206039] (-) TimerEvent: {}
+[2.306389] (-) TimerEvent: {}
+[2.406723] (-) TimerEvent: {}
+[2.507038] (-) TimerEvent: {}
+[2.607371] (-) TimerEvent: {}
+[2.707714] (-) TimerEvent: {}
+[2.808042] (-) TimerEvent: {}
+[2.908391] (-) TimerEvent: {}
+[3.008711] (-) TimerEvent: {}
+[3.109027] (-) TimerEvent: {}
+[3.209354] (-) TimerEvent: {}
+[3.309679] (-) TimerEvent: {}
+[3.410002] (-) TimerEvent: {}
+[3.510353] (-) TimerEvent: {}
+[3.610693] (-) TimerEvent: {}
+[3.710999] (-) TimerEvent: {}
+[3.811314] (-) TimerEvent: {}
+[3.911629] (-) TimerEvent: {}
+[4.011955] (-) TimerEvent: {}
+[4.112307] (-) TimerEvent: {}
+[4.212658] (-) TimerEvent: {}
+[4.313017] (-) TimerEvent: {}
+[4.413346] (-) TimerEvent: {}
+[4.513649] (-) TimerEvent: {}
+[4.613948] (-) TimerEvent: {}
+[4.714280] (-) TimerEvent: {}
+[4.814615] (-) TimerEvent: {}
+[4.914940] (-) TimerEvent: {}
+[5.015250] (-) TimerEvent: {}
+[5.115548] (-) TimerEvent: {}
+[5.215860] (-) TimerEvent: {}
+[5.316170] (-) TimerEvent: {}
+[5.416479] (-) TimerEvent: {}
+[5.516748] (-) TimerEvent: {}
+[5.617011] (-) TimerEvent: {}
+[5.717257] (-) TimerEvent: {}
+[5.720912] (motor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motor\x1b[0m\n'}
+[5.817387] (-) TimerEvent: {}
+[5.917799] (-) TimerEvent: {}
+[6.001405] (motor) StdoutLine: {'line': b'[100%] Built target motor\n'}
+[6.008071] (motor) CommandEnded: {'returncode': 0}
+[6.017869] (-) TimerEvent: {}
+[6.020757] (motor) JobProgress: {'identifier': 'motor', 'progress': 'install'}
+[6.025947] (motor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wildan/proyek/alucrot/build/motor'], 'cwd': '/home/wildan/proyek/alucrot/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'wildan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wildan'), ('OLDPWD', '/home/wildan'), ('DESKTOP_SESSION', 'budgie-desktop'), ('GIO_LAUNCHED_DESKTOP_FILE', '/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1981'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/wildan/proyek/alucrot/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wildan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wildan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/swift-3x:@/tmp/.ICE-unix/1058,unix/swift-3x:/tmp/.ICE-unix/1058'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Budgie:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', '02ae57b3-fde9-4ff9-900a-5a42f8b27679'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'budgie-desktop'), ('XAUTHORITY', '/home/wildan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/wildan'), ('AMENT_PREFIX_PATH', '/home/wildan/proyek/alucrot/install/motor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'budgie-desktop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wildan/proyek/alucrot/build/motor'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-budgie-desktop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/budgie-desktop:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wildan/proyek/alucrot/install/motor:/opt/ros/humble')]), 'shell': False}
+[6.030786] (motor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.030927] (motor) StdoutLine: {'line': b'-- Installing: /home/wildan/proyek/alucrot/install/motor/lib/motor/motor\n'}
+[6.033354] (motor) StdoutLine: {'line': b'-- Set runtime path of "/home/wildan/proyek/alucrot/install/motor/lib/motor/motor" to ""\n'}
+[6.033455] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/package_run_dependencies/motor\n'}
+[6.033538] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/parent_prefix_path/motor\n'}
+[6.033618] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/ament_prefix_path.sh\n'}
+[6.033661] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/ament_prefix_path.dsv\n'}
+[6.033735] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/path.sh\n'}
+[6.033790] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/path.dsv\n'}
+[6.033830] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.bash\n'}
+[6.033870] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.sh\n'}
+[6.033908] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.zsh\n'}
+[6.033947] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.dsv\n'}
+[6.033986] (motor) StdoutLine: {'line': b'-- Installing: /home/wildan/proyek/alucrot/install/motor/share/motor/package.dsv\n'}
+[6.034026] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/packages/motor\n'}
+[6.034071] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/cmake/motorConfig.cmake\n'}
+[6.034115] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/cmake/motorConfig-version.cmake\n'}
+[6.034158] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/package.xml\n'}
+[6.035905] (motor) CommandEnded: {'returncode': 0}
+[6.070974] (motor) JobEnded: {'identifier': 'motor', 'rc': 0}
+[6.071457] (-) EventReactorShutdown: {}

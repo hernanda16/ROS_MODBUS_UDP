@@ -1,0 +1,4 @@
+Invoking command in '/home/wildan/proyek/alucrot/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wildan/proyek/alucrot/build/motor -- -j8 -l8
+Invoked command in '/home/wildan/proyek/alucrot/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wildan/proyek/alucrot/build/motor -- -j8 -l8
+Invoking command in '/home/wildan/proyek/alucrot/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wildan/proyek/alucrot/build/motor
+Invoked command in '/home/wildan/proyek/alucrot/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wildan/proyek/alucrot/build/motor

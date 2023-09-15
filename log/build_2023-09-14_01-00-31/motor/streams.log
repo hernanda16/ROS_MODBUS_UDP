@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/wildan/proyek/alucrot/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wildan/proyek/alucrot/build/motor -- -j8 -l8
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target motor[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/motor.dir/src/motor.cpp.o[0m
+[1.864s] [01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[1.865s] [01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:137:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_left_motor_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kprev_left_motor_speed[m[K’?
+[1.865s]   137 |         int total_vel = abs([01;31m[Kbuffer_left_motor_speed[m[K) + abs(buffer_right_motor_speed) + abs(buffer_rear_motor_speed);
+[1.865s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.865s]       |                             [32m[Kprev_left_motor_speed[m[K
+[1.871s] [01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:137:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_right_motor_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kprev_right_motor_speed[m[K’?
+[1.871s]   137 |         int total_vel = abs(buffer_left_motor_speed) + abs([01;31m[Kbuffer_right_motor_speed[m[K) + abs(buffer_rear_motor_speed);
+[1.871s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.871s]       |                                                            [32m[Kprev_right_motor_speed[m[K
+[1.877s] [01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:137:92:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_rear_motor_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kprev_rear_motor_speed[m[K’?
+[1.877s]   137 |         int total_vel = abs(buffer_left_motor_speed) + abs(buffer_right_motor_speed) + abs([01;31m[Kbuffer_rear_motor_speed[m[K);
+[1.877s]       |                                                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.877s]       |                                                                                            [32m[Kprev_rear_motor_speed[m[K
+[1.877s] [01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:140:39:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint16_t[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K65535[m[K’ to ‘[01m[K-1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[1.877s]   140 |             left_motor_acceleration = [01;35m[K65535[m[K;
+[1.877s]       |                                       [01;35m[K^~~~~[m[K
+[1.877s] [01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:145:40:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint16_t[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K65535[m[K’ to ‘[01m[K-1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[1.877s]   145 |             right_motor_acceleration = [01;35m[K65535[m[K;
+[1.877s]       |                                        [01;35m[K^~~~~[m[K
+[1.877s] [01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:150:39:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint16_t[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K65535[m[K’ to ‘[01m[K-1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[1.878s]   150 |             rear_motor_acceleration = [01;35m[K65535[m[K;
+[1.878s]       |                                       [01;35m[K^~~~~[m[K
+[3.731s] gmake[2]: *** [CMakeFiles/motor.dir/build.make:76: CMakeFiles/motor.dir/src/motor.cpp.o] Error 1
+[3.731s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2
+[3.731s] gmake: *** [Makefile:146: all] Error 2
+[3.732s] Invoked command in '/home/wildan/proyek/alucrot/build/motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wildan/proyek/alucrot/build/motor -- -j8 -l8

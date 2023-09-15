@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.001136] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.001223] (motor) JobStarted: {'identifier': 'motor'}
+[0.019726] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.021041] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[0.022541] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wildan/proyek/alucrot/build/motor', '--', '-j8', '-l8'], 'cwd': '/home/wildan/proyek/alucrot/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'wildan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wildan'), ('DESKTOP_SESSION', 'budgie-desktop'), ('GIO_LAUNCHED_DESKTOP_FILE', '/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1976'), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wildan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wildan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/swift-3x:@/tmp/.ICE-unix/1053,unix/swift-3x:/tmp/.ICE-unix/1053'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Budgie:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', '0e74cc3b-0ca4-4c4c-a3f6-992079fddb54'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'budgie-desktop'), ('XAUTHORITY', '/home/wildan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/wildan'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'budgie-desktop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wildan/proyek/alucrot/build/motor'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-budgie-desktop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/budgie-desktop:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.092645] (motor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor\x1b[0m\n'}
+[0.097210] (-) TimerEvent: {}
+[0.129879] (motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor.dir/src/motor.cpp.o\x1b[0m\n'}
+[0.197344] (-) TimerEvent: {}
+[0.297834] (-) TimerEvent: {}
+[0.398314] (-) TimerEvent: {}
+[0.498797] (-) TimerEvent: {}
+[0.599201] (-) TimerEvent: {}
+[0.699689] (-) TimerEvent: {}
+[0.800301] (-) TimerEvent: {}
+[0.900883] (-) TimerEvent: {}
+[1.001465] (-) TimerEvent: {}
+[1.101888] (-) TimerEvent: {}
+[1.202405] (-) TimerEvent: {}
+[1.302952] (-) TimerEvent: {}
+[1.403500] (-) TimerEvent: {}
+[1.504076] (-) TimerEvent: {}
+[1.604578] (-) TimerEvent: {}
+[1.705074] (-) TimerEvent: {}
+[1.805584] (-) TimerEvent: {}
+[1.906125] (-) TimerEvent: {}
+[2.006739] (-) TimerEvent: {}
+[2.107286] (-) TimerEvent: {}
+[2.207834] (-) TimerEvent: {}
+[2.308460] (-) TimerEvent: {}
+[2.408942] (-) TimerEvent: {}
+[2.509446] (-) TimerEvent: {}
+[2.610001] (-) TimerEvent: {}
+[2.710568] (-) TimerEvent: {}
+[2.811178] (-) TimerEvent: {}
+[2.911699] (-) TimerEvent: {}
+[3.012217] (-) TimerEvent: {}
+[3.112773] (-) TimerEvent: {}
+[3.213265] (-) TimerEvent: {}
+[3.313728] (-) TimerEvent: {}
+[3.414169] (-) TimerEvent: {}
+[3.514581] (-) TimerEvent: {}
+[3.615051] (-) TimerEvent: {}
+[3.715598] (-) TimerEvent: {}
+[3.816220] (-) TimerEvent: {}
+[3.916750] (-) TimerEvent: {}
+[4.017280] (-) TimerEvent: {}
+[4.117797] (-) TimerEvent: {}
+[4.218344] (-) TimerEvent: {}
+[4.318896] (-) TimerEvent: {}
+[4.419464] (-) TimerEvent: {}
+[4.520036] (-) TimerEvent: {}
+[4.620607] (-) TimerEvent: {}
+[4.721167] (-) TimerEvent: {}
+[4.821688] (-) TimerEvent: {}
+[4.922157] (-) TimerEvent: {}
+[5.022655] (-) TimerEvent: {}
+[5.123170] (-) TimerEvent: {}
+[5.223772] (-) TimerEvent: {}
+[5.324342] (-) TimerEvent: {}
+[5.424843] (-) TimerEvent: {}
+[5.525321] (-) TimerEvent: {}
+[5.625780] (-) TimerEvent: {}
+[5.726275] (-) TimerEvent: {}
+[5.826720] (-) TimerEvent: {}
+[5.927186] (-) TimerEvent: {}
+[6.027699] (-) TimerEvent: {}
+[6.128123] (-) TimerEvent: {}
+[6.228648] (-) TimerEvent: {}
+[6.329144] (-) TimerEvent: {}
+[6.429634] (-) TimerEvent: {}
+[6.530127] (-) TimerEvent: {}
+[6.630623] (-) TimerEvent: {}
+[6.731059] (-) TimerEvent: {}
+[6.831487] (-) TimerEvent: {}
+[6.931951] (-) TimerEvent: {}
+[7.032508] (-) TimerEvent: {}
+[7.132930] (-) TimerEvent: {}
+[7.233357] (-) TimerEvent: {}
+[7.333779] (-) TimerEvent: {}
+[7.434230] (-) TimerEvent: {}
+[7.534678] (-) TimerEvent: {}
+[7.635150] (-) TimerEvent: {}
+[7.735687] (-) TimerEvent: {}
+[7.836156] (-) TimerEvent: {}
+[7.936639] (-) TimerEvent: {}
+[8.037101] (-) TimerEvent: {}
+[8.137595] (-) TimerEvent: {}
+[8.238162] (-) TimerEvent: {}
+[8.338678] (-) TimerEvent: {}
+[8.439171] (-) TimerEvent: {}
+[8.539660] (-) TimerEvent: {}
+[8.640142] (-) TimerEvent: {}
+[8.740567] (-) TimerEvent: {}
+[8.840987] (-) TimerEvent: {}
+[8.941430] (-) TimerEvent: {}
+[9.041866] (-) TimerEvent: {}
+[9.142292] (-) TimerEvent: {}
+[9.242805] (-) TimerEvent: {}
+[9.343333] (-) TimerEvent: {}
+[9.443889] (-) TimerEvent: {}
+[9.544440] (-) TimerEvent: {}
+[9.644883] (-) TimerEvent: {}
+[9.745316] (-) TimerEvent: {}
+[9.845861] (-) TimerEvent: {}
+[9.946372] (-) TimerEvent: {}
+[10.046887] (-) TimerEvent: {}
+[10.147361] (-) TimerEvent: {}
+[10.247898] (-) TimerEvent: {}
+[10.348348] (-) TimerEvent: {}
+[10.448767] (-) TimerEvent: {}
+[10.549199] (-) TimerEvent: {}
+[10.649601] (-) TimerEvent: {}
+[10.749989] (-) TimerEvent: {}
+[10.850371] (-) TimerEvent: {}
+[10.950761] (-) TimerEvent: {}
+[11.051240] (-) TimerEvent: {}
+[11.151626] (-) TimerEvent: {}
+[11.252107] (-) TimerEvent: {}
+[11.352600] (-) TimerEvent: {}
+[11.453014] (-) TimerEvent: {}
+[11.553424] (-) TimerEvent: {}
+[11.653827] (-) TimerEvent: {}
+[11.754229] (-) TimerEvent: {}
+[11.854672] (-) TimerEvent: {}
+[11.955205] (-) TimerEvent: {}
+[12.055689] (-) TimerEvent: {}
+[12.156190] (-) TimerEvent: {}
+[12.256596] (-) TimerEvent: {}
+[12.357011] (-) TimerEvent: {}
+[12.457398] (-) TimerEvent: {}
+[12.557860] (-) TimerEvent: {}
+[12.658348] (-) TimerEvent: {}
+[12.758832] (-) TimerEvent: {}
+[12.859293] (-) TimerEvent: {}
+[12.959798] (-) TimerEvent: {}
+[13.060288] (-) TimerEvent: {}
+[13.160678] (-) TimerEvent: {}
+[13.261083] (-) TimerEvent: {}
+[13.361524] (-) TimerEvent: {}
+[13.461949] (-) TimerEvent: {}
+[13.562340] (-) TimerEvent: {}
+[13.662764] (-) TimerEvent: {}
+[13.763191] (-) TimerEvent: {}
+[13.863628] (-) TimerEvent: {}
+[13.964065] (-) TimerEvent: {}
+[14.064486] (-) TimerEvent: {}
+[14.164910] (-) TimerEvent: {}
+[14.265379] (-) TimerEvent: {}
+[14.365789] (-) TimerEvent: {}
+[14.466220] (-) TimerEvent: {}
+[14.566683] (-) TimerEvent: {}
+[14.667096] (-) TimerEvent: {}
+[14.767514] (-) TimerEvent: {}
+[14.867947] (-) TimerEvent: {}
+[14.968462] (-) TimerEvent: {}
+[15.068959] (-) TimerEvent: {}
+[15.169366] (-) TimerEvent: {}
+[15.269763] (-) TimerEvent: {}
+[15.370200] (-) TimerEvent: {}
+[15.470728] (-) TimerEvent: {}
+[15.571220] (-) TimerEvent: {}
+[15.671722] (-) TimerEvent: {}
+[15.772149] (-) TimerEvent: {}
+[15.872595] (-) TimerEvent: {}
+[15.973090] (-) TimerEvent: {}
+[16.073643] (-) TimerEvent: {}
+[16.174096] (-) TimerEvent: {}
+[16.215856] (motor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motor\x1b[0m\n'}
+[16.274306] (-) TimerEvent: {}
+[16.374744] (-) TimerEvent: {}
+[16.475240] (-) TimerEvent: {}
+[16.575749] (-) TimerEvent: {}
+[16.676235] (-) TimerEvent: {}
+[16.776810] (-) TimerEvent: {}
+[16.877478] (-) TimerEvent: {}
+[16.978148] (-) TimerEvent: {}
+[17.050902] (motor) StdoutLine: {'line': b'[100%] Built target motor\n'}
+[17.068042] (motor) CommandEnded: {'returncode': 0}
+[17.078267] (-) TimerEvent: {}
+[17.106660] (motor) JobProgress: {'identifier': 'motor', 'progress': 'install'}
+[17.120206] (motor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wildan/proyek/alucrot/build/motor'], 'cwd': '/home/wildan/proyek/alucrot/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'wildan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wildan'), ('DESKTOP_SESSION', 'budgie-desktop'), ('GIO_LAUNCHED_DESKTOP_FILE', '/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1976'), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wildan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wildan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/swift-3x:@/tmp/.ICE-unix/1053,unix/swift-3x:/tmp/.ICE-unix/1053'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Budgie:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', '0e74cc3b-0ca4-4c4c-a3f6-992079fddb54'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'budgie-desktop'), ('XAUTHORITY', '/home/wildan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/wildan'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'budgie-desktop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wildan/proyek/alucrot/build/motor'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-budgie-desktop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/budgie-desktop:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.133795] (motor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.134196] (motor) StdoutLine: {'line': b'-- Installing: /home/wildan/proyek/alucrot/install/motor/lib/motor/motor\n'}
+[17.141145] (motor) StdoutLine: {'line': b'-- Set runtime path of "/home/wildan/proyek/alucrot/install/motor/lib/motor/motor" to ""\n'}
+[17.141553] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/package_run_dependencies/motor\n'}
+[17.141728] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/parent_prefix_path/motor\n'}
+[17.141859] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/ament_prefix_path.sh\n'}
+[17.141983] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/ament_prefix_path.dsv\n'}
+[17.142104] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/path.sh\n'}
+[17.142305] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/path.dsv\n'}
+[17.142599] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.bash\n'}
+[17.142787] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.sh\n'}
+[17.142902] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.zsh\n'}
+[17.143012] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.dsv\n'}
+[17.143120] (motor) StdoutLine: {'line': b'-- Installing: /home/wildan/proyek/alucrot/install/motor/share/motor/package.dsv\n'}
+[17.143243] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/packages/motor\n'}
+[17.143392] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/cmake/motorConfig.cmake\n'}
+[17.143541] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/cmake/motorConfig-version.cmake\n'}
+[17.143717] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/package.xml\n'}
+[17.145751] (motor) CommandEnded: {'returncode': 0}
+[17.178397] (-) TimerEvent: {}
+[17.234657] (motor) JobEnded: {'identifier': 'motor', 'rc': 0}
+[17.235814] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/wildan/proyek/alucrot/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wildan/proyek/alucrot/build/motor -- -j8 -l8
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target motor[0m
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/motor.dir/src/motor.cpp.o[0m
+[5.748s] [100%] [32m[1mLinking CXX executable motor[0m
+[6.032s] [100%] Built target motor
+[6.039s] Invoked command in '/home/wildan/proyek/alucrot/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wildan/proyek/alucrot/build/motor -- -j8 -l8
+[6.060s] Invoking command in '/home/wildan/proyek/alucrot/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wildan/proyek/alucrot/build/motor
+[6.066s] -- Install configuration: ""
+[6.066s] -- Installing: /home/wildan/proyek/alucrot/install/motor/lib/motor/motor
+[6.069s] -- Set runtime path of "/home/wildan/proyek/alucrot/install/motor/lib/motor/motor" to ""
+[6.069s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+[6.070s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+[6.070s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/ament_prefix_path.sh
+[6.070s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/ament_prefix_path.dsv
+[6.070s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/path.sh
+[6.070s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/environment/path.dsv
+[6.070s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.bash
+[6.070s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.sh
+[6.070s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.zsh
+[6.070s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/local_setup.dsv
+[6.070s] -- Installing: /home/wildan/proyek/alucrot/install/motor/share/motor/package.dsv
+[6.070s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/ament_index/resource_index/packages/motor
+[6.071s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/cmake/motorConfig.cmake
+[6.071s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/cmake/motorConfig-version.cmake
+[6.071s] -- Up-to-date: /home/wildan/proyek/alucrot/install/motor/share/motor/package.xml
+[6.072s] Invoked command in '/home/wildan/proyek/alucrot/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wildan/proyek/alucrot/build/motor

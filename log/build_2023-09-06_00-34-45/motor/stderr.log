@@ -1,0 +1,4 @@
+[01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:36:37:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   36 |         modbus_udp_init(&socket_id, [01;35m[K"169.254.196.196"[m[K, 3124);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~[m[K

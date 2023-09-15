@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/wildan/proyek/alucrot/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wildan/proyek/alucrot/build/motor -- -j8 -l8
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target motor[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/motor.dir/src/motor.cpp.o[0m
+[0.175s] [01m[K/home/wildan/proyek/alucrot/src/motor/src/motor.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kmotor/modbus_udp.h: No such file or directory
+[0.176s]     6 | #include [01;31m[K"motor/modbus_udp.h"[m[K
+[0.176s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.176s] compilation terminated.
+[0.182s] gmake[2]: *** [CMakeFiles/motor.dir/build.make:76: CMakeFiles/motor.dir/src/motor.cpp.o] Error 1
+[0.182s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2
+[0.182s] gmake: *** [Makefile:146: all] Error 2
+[0.184s] Invoked command in '/home/wildan/proyek/alucrot/build/motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wildan/proyek/alucrot/build/motor -- -j8 -l8
